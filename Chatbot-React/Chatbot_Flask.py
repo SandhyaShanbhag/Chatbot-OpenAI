@@ -1,5 +1,4 @@
 
-#C:/Users/sandhya_shanbhag/Desktop/database/Storables Dataset
 from flask import Flask, request, jsonify
 from flask_cors import CORS
 import os
@@ -11,7 +10,7 @@ from langchain.chains.question_answering import load_qa_chain
 from langchain.llms import OpenAI
 
 app = Flask(__name__)
-os.environ["OPENAI_API_KEY"] = "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"
+os.environ["OPENAI_API_KEY"] = ""
 path="D:/ChatBot_Gradio/Agency_healthcare/"
 CORS(app)
 
