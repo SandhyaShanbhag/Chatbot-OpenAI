@@ -11,7 +11,7 @@ from langchain.llms import OpenAI
 import csv
 from PyPDF2 import PdfReader
 
-os.environ["OPENAI_API_KEY"] = "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"
+os.environ["OPENAI_API_KEY"] = ""
 path="D:\\ChatBot_Gradio\\Agency_healthcare\\"
 
 
