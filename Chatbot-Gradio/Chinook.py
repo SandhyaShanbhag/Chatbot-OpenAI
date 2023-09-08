@@ -7,8 +7,8 @@ from langchain.agents import AgentExecutor
 
 
 
-os.environ["OPENAI_API_KEY"] = "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"
-db = SQLDatabase.from_uri("sqlite:///C:/Users/sandhya_shanbhag/Desktop/database/chinook.db")
+os.environ["OPENAI_API_KEY"] = ""
+db = SQLDatabase.from_uri("sqlite:chinook.db")
 toolkit = SQLDatabaseToolkit(db=db)
 
 agent_executor = create_sql_agent(
