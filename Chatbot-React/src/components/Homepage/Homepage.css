@@ -1,0 +1,26 @@
+.Home{
+    display: grid;
+    grid-template-columns: 25% 75%;
+    height: 100vh;
+}
+.leftSide{
+    background-color: #28282B;
+    height: 100%;
+}
+.rightSide{
+    height: 100%;
+}
+.Left{
+    color: white;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.Left button{
+    border: none;
+    background-color: #28282B;
+    color: white;
+    font-size: x-large;
+}
+.Left section{
+    margin-bottom: 20px;
+}
